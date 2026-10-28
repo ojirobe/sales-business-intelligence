@@ -1,19 +1,23 @@
-# Python virtual environment
+# Virtual environments
 .venv/
 venv/
 
-# Python temporary files
+# Python cache
 __pycache__/
 *.pyc
 .pytest_cache/
 
-# macOS temporary files
+# macOS files
 .DS_Store
 
-# Environment secrets
+# Secrets
 .env
 .env.*
 !.env.example
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# Original datasets
+data/raw/
+
+# Temporary investigation outputs
+data/processed/*review*.csv
+data/processed/*candidates*.csv
