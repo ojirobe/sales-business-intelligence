@@ -1,0 +1,39 @@
+Country,TransactionLines,InvoiceCount,GrossMerchandiseValue,SalesSharePercent
+United Kingdom,483959,17901,8747047.47,85.16
+Netherlands,2322,93,283889.34,2.76
+EIRE,7779,282,271164.3,2.64
+Germany,8658,443,205569.89,2.0
+France,8100,382,184582.74,1.8
+Australia,1181,56,138171.31,1.35
+Spain,2422,88,55725.11,0.54
+Switzerland,1935,50,53087.9,0.52
+Japan,321,19,37416.37,0.36
+Belgium,1935,98,36927.34,0.36
+Sweden,428,34,36839.33,0.36
+Norway,1048,32,32454.64,0.32
+Portugal,1464,50,27015.16,0.26
+Channel Islands,744,25,20007.44,0.19
+Finland,647,40,18344.88,0.18
+Denmark,367,18,18211.34,0.18
+Italy,741,35,15820.24,0.15
+Cyprus,612,14,13254.69,0.13
+Hong Kong,279,7,9952.99,0.1
+Singapore,215,4,9120.39,0.09
+Austria,384,17,8742.68,0.09
+Israel,295,8,8135.26,0.08
+Poland,325,19,6974.65,0.07
+Unspecified,446,13,4749.79,0.05
+Greece,142,5,4425.52,0.04
+Iceland,182,7,4310.0,0.04
+USA,179,5,3580.39,0.03
+Canada,150,5,3115.44,0.03
+Malta,109,5,2070.59,0.02
+United Arab Emirates,67,2,1864.78,0.02
+Lebanon,45,1,1693.88,0.02
+Lithuania,35,4,1661.06,0.02
+European Community,57,3,1159.25,0.01
+Brazil,32,1,1143.6,0.01
+RSA,57,1,1002.31,0.01
+Czech Republic,24,2,786.74,0.01
+Bahrain,18,3,754.14,0.01
+Saudi Arabia,9,1,145.92,0.0

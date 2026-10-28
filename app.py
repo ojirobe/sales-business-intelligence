@@ -12,21 +12,16 @@ st.set_page_config(
 )
 
 ROOT = Path(__file__).resolve().parent
-DATA_FILE = ROOT / "data" / "processed" / "classified_sales.csv"
+DATA_FILE = ROOT / "data" / "processed" / "classified_sales.parquet"
 
 
 # Cache the dataset so it is not reloaded on every interaction
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        DATA_FILE,
-        dtype={
-            "InvoiceNo": "string",
-            "StockCode": "string",
-            "CustomerID": "string"
-        },
-        low_memory=False
-    )
+    df = pd.read_parquet(
+    DATA_FILE,
+    engine="pyarrow"
+)
 
     df["InvoiceDate"] = pd.to_datetime(
         df["InvoiceDate"], errors="coerce"
