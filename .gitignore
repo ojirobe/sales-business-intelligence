@@ -21,3 +21,11 @@ data/raw/
 # Temporary investigation outputs
 data/processed/*review*.csv
 data/processed/*candidates*.csv
+
+# Ignore processed CSV files by default
+data/processed/*.csv
+
+# Retain the small dashboard CSV datasets
+!data/processed/net_product_performance.csv
+!data/processed/rfm_segments_preliminary.csv
+!data/processed/geographical_sales.csv
