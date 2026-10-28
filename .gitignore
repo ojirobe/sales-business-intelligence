@@ -29,3 +29,6 @@ data/processed/*.csv
 !data/processed/net_product_performance.csv
 !data/processed/rfm_segments_preliminary.csv
 !data/processed/geographical_sales.csv
+
+# Local backup of the Streamlit dashboard
+app_backup.py
