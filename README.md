@@ -92,7 +92,7 @@ These classifications remain provisional because some cancellation matches have 
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ojirobe/sales-business-intelligence.git
 cd sales-business-intelligence
 ```
 
@@ -116,6 +116,18 @@ python -m streamlit run app.py
 ```
 
 Open the local address displayed by Streamlit, usually `http://localhost:8501`.
+
+## Streamlit Community Cloud Deployment
+
+The repository is ready for deployment from Streamlit Community Cloud with:
+
+- Repository: `ojirobe/sales-business-intelligence`
+- Branch: `main`
+- Main file path: `app.py`
+
+No application secrets are required. The dashboard reads the versioned datasets
+from `data/processed/` and installs its runtime dependencies from the root
+`requirements.txt` file.
 
 ## Automated Testing
 
