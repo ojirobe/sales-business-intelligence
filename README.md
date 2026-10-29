@@ -4,6 +4,8 @@
 
 An end-to-end retail analytics project using Python, Pandas, SQL, DuckDB, Plotly and Streamlit to investigate historical retail transactions, evaluate product performance, segment customers and examine international sales patterns.
 
+**Live dashboard:** [Open the Retail Sales Intelligence app](https://sales-business-intelligence-ojirobe.streamlit.app/)
+
 ## Project Overview
 
 This project analyses the **UCI Online Retail Dataset**, containing 541,909 transaction records from December 2010 to December 2011.
